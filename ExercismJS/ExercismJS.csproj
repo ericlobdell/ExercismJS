@@ -24,9 +24,11 @@
   <ItemGroup>
     <Content Include="test\hamming.spec.js" />
     <Content Include="test\leap.spec.js" />
+    <Content Include="test\rna-transcription.spec.js" />
     <Content Include="wallaby.config.js" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\DnaTranscriber.ts" />
     <TypeScriptCompile Include="src\hamming.ts" />
     <TypeScriptCompile Include="src\leap.ts" />
   </ItemGroup>
