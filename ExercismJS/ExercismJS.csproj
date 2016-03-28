@@ -22,10 +22,12 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="test\hamming.spec.js" />
     <Content Include="test\leap.spec.js" />
     <Content Include="wallaby.config.js" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\hamming.ts" />
     <TypeScriptCompile Include="src\leap.ts" />
   </ItemGroup>
   <ItemGroup />

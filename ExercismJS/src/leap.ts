@@ -1,9 +1,7 @@
 ﻿
 class Year {
 
-    year: number;
-
-    constructor( year: number ){
+    constructor( private year: number ){
         this.year = year;
     }
 
